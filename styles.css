@@ -7,9 +7,6 @@
   
 }
 
-body{
-  
-}
 
 header{
   margin:20px;
@@ -29,7 +26,6 @@ body{
 }
 
 .background-color{
-  height:100%;
   width:100%;
   background-color:rgb(102, 153, 153,0.7);
 }
