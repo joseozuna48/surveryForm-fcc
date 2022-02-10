@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  
+}
+
+body{
+  
+}
+
+header{
+  margin:20px;
+  max-width:80%;
+  margin:auto;
+  padding:10px;
+  color:white;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image:url("https://p0.piqsels.com/preview/711/359/607/coding-programming-working-macbook-thumbnail.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+.background-color{
+  height:100%;
+  width:100%;
+  background-color:rgb(102, 153, 153,0.7);
+}
+
+form{
+  border-radius:10px;
+  border: 2px solid #3d5c5c;
+  background-color: rgb(194, 214, 214,0.8);
+}
+
+#title,
+#description{
+  text-align:center;
+}
+
+#survey-form{
+  width:600px;
+  margin:auto;
+  padding:30px;
+}
+
+#form-item{
+  display:flex;
+  flex-direction:column;
+  padding-bottom:20px;
+}
+
+label{
+  font-weight:bold;
+}
+
+
+input[type=email],
+input[type=text],
+input[type=number],
+select{
+  padding:5px;
+  border-radius:5px;
+}
+
+input[type=email]:focus,
+input[type=text]:focus,
+input[type=number]:focus{
+  outline:none;
+  border: 4px solid #3d5c5c;
+}
+
+input[type=submit]{
+  width:100%;
+  padding:5px;
+  background-color:   #3d5c5c;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+
+@media (max-width:620px){
+  #survey-form{
+    width:450px;
+  }  
+}
+
+@media (max-width:520px){
+  #survey-form{
+    width:350px;
+  }  
+}
+
+
+
+
+
+
+
